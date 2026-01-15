@@ -1,0 +1,38 @@
+{
+  "thresholds": {
+    "spectral_flatness": 0.07179467794732332,
+    "harmonic_ratio": 0.4800949994824713,
+    "pitch_std": 18.821809112067378,
+    "zcr_variation": 0.07607455211641984
+  },
+  "directions": {
+    "spectral_flatness": "greater",
+    "harmonic_ratio": "less",
+    "pitch_std": "less",
+    "zcr_variation": "greater"
+  },
+  "weights": {
+    "spectral_flatness": 0.4,
+    "harmonic_ratio": 0.35,
+    "pitch_std": 0.15,
+    "zcr_variation": 0.1
+  },
+  "avg_real": {
+    "spectral_flatness": 0.020656655881215225,
+    "harmonic_ratio": 0.6002885886798863,
+    "pitch_std": 22.53495055884306,
+    "zcr_variation": 0.07204887820901969
+  },
+  "avg_fake": {
+    "spectral_flatness": 0.12293270001343141,
+    "harmonic_ratio": 0.3599014102850563,
+    "pitch_std": 15.108667665291696,
+    "zcr_variation": 0.08010022602381998
+  },
+  "vc_threshold": 0.55,
+  "calibration_info": {
+    "real_files_count": 11,
+    "fake_files_count": 9,
+    "timestamp": "2026-01-06T10:06:23.724107"
+  }
+}
